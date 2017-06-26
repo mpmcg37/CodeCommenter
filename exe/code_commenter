@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/code_commenter'
+
+ARGV.each do |filename|
+  CodeCommenter.comment_on_file filename
+end
