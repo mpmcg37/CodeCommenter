@@ -3,5 +3,6 @@
 require_relative '../lib/code_commenter'
 
 ARGV.each do |filename|
+  # Comment on each file in place.
   CodeCommenter.comment_on_file filename
 end
